@@ -4,10 +4,10 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade1 
-		inteiro idade2
-		inteiro idade3
-		inteiro idade4
+		real idade1 
+		real idade2
+		real idade3
+		real idade4
 
 		escreva("Média de Idades")
 		escreva("\nIdade 1: ")
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 422; 
+ * @POSICAO-CURSOR = 402; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
