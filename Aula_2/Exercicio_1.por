@@ -1,20 +1,21 @@
 programa
 {
-	inclua biblioteca Matematica 
+	inclua biblioteca Matematica
+ 
 	
 	funcao inicio()
 	{
 		inteiro idade 
 		escreva("Digite sua idade: ")
 		leia(idade)
-			se(idade == 18)
-			{
+		se(idade == 18)
+		{
 			escreva("O Usuário é maior de idade")
-			}
-			senao
-			{
+		}
+		senao
+		{
 			escreva("O Usuário é menor de idade")
-			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
