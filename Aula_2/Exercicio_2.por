@@ -1,10 +1,12 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-		real nota1
+		
+		real nota1
 		real nota2
 		real nota3
 		real nota4
@@ -21,14 +23,14 @@ programa
 		real media = (nota1 + nota2 + nota3 + nota4)/4
 		real mediaarredondada = mat.arredondar(media,1)
 		escreva("Sua média é: " + mediaarredondada)
-			se(mediaarredondada >= 5)
-			{
-				escreva("\nAluno aprovado!")
-			}
-			senao
-			{
-				escreva("\nAluno reprovado...")
-			}
+		se(mediaarredondada >= 5)
+		{
+			escreva("\nAluno aprovado!")
+		}
+		senao
+		{
+			escreva("\nAluno reprovado...")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 446; 
+ * @POSICAO-CURSOR = 505; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
